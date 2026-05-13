@@ -61,11 +61,17 @@ Difficulté : Moyenne (~1 h)
 **Exercice 1.1 — Définitions (réponse directement dans ce README)**
 
 * Un **protocole** :
+  - Un protocole est un ensemble de règles qui permettent à deux machines ou deux applications de communiquer correctement sur un réseau. Il définit la manière d’envoyer, recevoir et interpréter les données.
 * Une **entité protocolaire** :
+  - Une entité protocolaire est un composant d’une couche réseau qui applique les règles du protocole correspondant afin d’assurer la communication avec une autre entité du même niveau.
 * Un **service** :
+  - Un service correspond à une fonction qu’une couche fournit à la couche située au-dessus pour lui permettre d’utiliser le réseau sans gérer les détails techniques internes.
 * Une **primitive de service** :
+  - Une primitive de service est une commande ou une opération utilisée pour demander ou signaler une action de communication entre deux couches du modèle OSI.
 * Une **Service Data Unit (SDU)** par rapport à une PDU :
+  - La SDU représente les données reçues d’une couche supérieure avant encapsulation. Après l’ajout des informations de contrôle du protocole (en-têtes), elle devient une PDU.
 * Un **point d'accès à un service (SAP)** :
+- Un SAP est une interface ou un point de connexion qui permet à une couche d’utiliser les services de la couche inférieure.
 
 ---------------------------------------------------
 🗺️ Séquence 5 : Retour sur le protocole DHCP
